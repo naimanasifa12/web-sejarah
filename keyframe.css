@@ -1,0 +1,112 @@
+.rise{
+    animation: card-rise 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  @keyframes card-rise {
+    0% {
+      transform: translateY(10%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+}
+.AkunSigmaku{
+  animation: AkunMuMinesAura 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  @keyframes AkunMuMinesAura {
+    0% {
+      transform: translateX(20%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+}
+
+.munculSigma{
+    animation: sigma 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+    @keyframes sigma {
+    0% {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+.bintangSkibidi{
+    animation: yapping 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  @keyframes yapping {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+}
+
+.munculBintangSkibidi{
+    animation: sigmaSkibidi 4s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+    @keyframes sigmaSkibidi {
+      0% {
+        transform: translateY(30%);
+        opacity: 0;
+        }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.navberulah {
+    animation: diaBerulah 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+    @keyframes diaBerulah {
+    0%{
+        transform: scaleY(0);
+    }
+    100%{
+        transform: scaleY(1);
+    }
+}
+
+.sigmaInOut {
+    animation: sigmaInOut 1s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    }
+    @keyframes sigmaInOut {
+    0%{
+        transform: translateY(10%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.image-set {
+    animation: imageMoves 1s cubic-bezier(1, 0, 0, 1);
+  }
+  @keyframes imageMoves {
+  0%{
+    transform: translateY(-100%);
+    transform: scale(1.1);
+    opacity: 0;
+  }
+  50%{
+    transform: translateY(0);
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  100%{
+    transform: translateY(0);
+    transform: scale(1);
+  }
+}
